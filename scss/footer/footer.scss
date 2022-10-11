@@ -1,0 +1,34 @@
+footer {
+    height: 100px;
+    background-color: #79addc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 230px;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: 750px;
+    }
+
+    .copyright{
+        display: flex;
+        justify-content: center;
+        width: 750px;
+        color: white;
+    }
+
+    .sm {
+        display: flex;
+        justify-content: center;
+        width: 750px;
+        color: white;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    footer {
+        margin-top: 300px;
+    }
+}
